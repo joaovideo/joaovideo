@@ -30,17 +30,21 @@ The repositories are private — these are commercial products and client system
 
 ### How I work
 
-A large share of my code is written by AI, and I disclose that on every case study. Directing a model into production takes more process than writing by hand, not less: a written briefing every session reads before touching anything, decision records so a model with no memory can't re-litigate a settled choice, one feature per commit, and rollback as a precondition rather than a contingency.
+A large share of my code is written by AI, and I disclose that everywhere. What I do is the other half: I have the idea and define what the system has to do, I choose the technology for the job, I write the instructions that direct the implementation, and then I test it against real signal, real audio and real hardware and adjust it empirically until it behaves.
 
-I don't integrate code I haven't read. Integrating what you don't understand builds a system only the model can maintain, and the invoice arrives about six months later.
+That last part is not a small share of the work. A model will produce something that compiles, looks finished, and is quietly wrong — a transcription pipeline that silently drops every term it doesn't recognise, SCSI code that only fails against a real tape drive. Knowing that the output is wrong, and why, is the scarce skill, and it comes from the signal side rather than from the model.
+
+Directing a model into production also takes more process than writing by hand, not less: a written briefing every session reads before touching anything, decision records so a model with no memory can't re-litigate a settled choice, one feature per commit, and rollback as a precondition rather than a contingency. I don't integrate code I haven't read.
 
 ---
 
 ### Stack
 
-**Broadcast** — vMix · NDI · SRT · SDI · FFmpeg · DeckLink
-**Building** — Python · Rust · Swift · TypeScript · Electron · Tauri · WebRTC · Node.js
-**AI** — Whisper / MLX on Apple Silicon · Anthropic API · tool use · retrieval
+**Broadcast — hands-on** · vMix · NDI · SRT · SDI · FFmpeg · DeckLink
+
+**Project stacks** · Python · Rust · Swift · TypeScript · Electron · Tauri · WebRTC · Node.js
+
+The second line is what my projects are built in, not a claim of fluency. I own the architecture, the trust model, the reviews and what ships; the implementation is largely AI-assisted, as described above. I read every line I integrate — I don't write Rust or WebRTC unaided, and I'd rather you know that from the README than find out in the interview.
 
 ---
 
