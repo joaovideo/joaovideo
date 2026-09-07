@@ -8,7 +8,7 @@ Partner at [VENG (Vídeo Engenharia)](https://videoengenharia.com.br): professio
 
 ### The intersection
 
-Most people who can build the model layer have never patched an audio feed under time pressure. Most people who live in vMix, Resolume, NDI, SRT and SDI have never written the software that would automate it. I work in both places.
+Most people who can build the model layer have never patched an audio feed under time pressure. Most people who live in vMix, NDI, SRT and SDI have never written the software that would automate it. I work in both places.
 
 That means: live captioning and transcription, remote operations, media archive, and production automation — designed by someone who knows what happens when the deadline is the doors opening and there is no second take.
 
@@ -38,7 +38,7 @@ I don't integrate code I haven't read. Integrating what you don't understand bui
 
 ### Stack
 
-**Broadcast** — vMix · Resolume Arena · NDI · SRT · SDI · FFmpeg · DeckLink
+**Broadcast** — vMix · NDI · SRT · SDI · FFmpeg · DeckLink
 **Building** — Python · Rust · Swift · TypeScript · Electron · Tauri · WebRTC · Node.js
 **AI** — Whisper / MLX on Apple Silicon · Anthropic API · tool use · retrieval
 
