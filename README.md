@@ -30,7 +30,7 @@ The repositories are private — these are commercial products and client system
 
 ### How I work
 
-A large share of my code is written by AI, and I disclose that everywhere. What I do is the other half: I have the idea and define what the system has to do, I choose the technology for the job, I write the instructions that direct the implementation, and then I test it against real signal, real audio and real hardware and adjust it empirically until it behaves.
+A large share of my code is written by AI, and I disclose that everywhere. What I do is the other half: the idea, and the rules the build has to follow — programming and commit discipline, the test harness, the security model, and how the product is organised for market. I choose the technology, I coordinate the work and write the instructions that direct it, and then I test against real signal, real audio and real hardware and fine-tune until it behaves.
 
 That last part is not a small share of the work. A model will produce something that compiles, looks finished, and is quietly wrong — a transcription pipeline that silently drops every term it doesn't recognise, SCSI code that only fails against a real tape drive. Knowing that the output is wrong, and why, is the scarce skill, and it comes from the signal side rather than from the model.
 
